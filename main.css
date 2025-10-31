@@ -1,0 +1,42 @@
+body{
+    background-color: #476a39;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(29, 103, 57);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        color: #000;
+        a{
+            background-color: rgb(6, 151, 64);
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition:  0.2s ease-in-out;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0%   100% 100% 5%;
+            padding: 7px;
+
+
+        }
+
+        a:hover {
+            scale: 1.5;
+            background-color: rgb(59, 136, 29);
+            padding: 10px;
+        }
+    }
+}
+main{
+}
